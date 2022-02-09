@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'HP Simplified Regular';
-    src: url('../fonts/HP Simplified/Simplified Regular.ttf');
+    src: url('../fonts/HP Simplified/HP Simplified Regular.ttf');
 }
 
 @font-face {
@@ -19,9 +19,9 @@
     --feature-color: #ffb100;
     --light-brown-color: #c97d29;
     --footer-color: #ffb100;
-    --header-color: #f3d700;
+    --dark-brown-color: #794c15;
     --header-height: 55px;
-    --header-right-color: #f39400;
+    --header-right-color: #4f3815;
     --top-color: #ffb100;
     --dim-brown-color: #b76300;
     --top-top-color: #f3d300;
@@ -46,7 +46,7 @@ body {
 }
 
 div.header {
-    background: linear-gradient(to right, var(--header-color) 0px, var(--header-color) calc(var(--width) - 25px), var(--header-right-color) var(--width));
+    background: linear-gradient(to right, var(--dark-brown-color) 0px, var(--dark-brown-color) calc(var(--width) - 25px), var(--header-right-color) calc(var(--width) - 20px), var(--header-right-color) var(--width));
     border-bottom: 1px solid var(--back-color);
     display: flex;
     font-size: 20px;
@@ -62,7 +62,7 @@ div.header-side {
 }
 
 div.header-side:last-of-type {
-    margin-right: 32px;
+    margin-right: 38px;
 }
 
 div.header-icon {
