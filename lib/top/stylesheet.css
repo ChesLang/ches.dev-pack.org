@@ -218,7 +218,7 @@ div.quotation {
     border-radius: 5px;
     font-size: 20px;
     line-height: 140%;
-    margin-top: var(--group-title-margin);
+    margin-top: calc(var(--group-title-margin) * 1.5);
     padding: 20px;
     text-align: center;
     width: 50%;
